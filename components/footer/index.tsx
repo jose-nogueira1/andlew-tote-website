@@ -18,8 +18,8 @@ const Footer: FC = () => (
         height="10rem"
         objectFit="cover"
         borderRadius="50%"
-        src="/img/obliquo-book.webp"
-        alt="The Book of Andlew Tote with Background"
+        src="/img/tote-logo.webp"
+        alt="Andlew Tote with Background"
       />
     </Div>
   </FooterElement>

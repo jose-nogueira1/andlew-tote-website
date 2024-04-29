@@ -13,7 +13,7 @@ const HeroAnimation: FC = () => (
       position="absolute"
       src="/img/tote.webp"
       initial={{ opacity: 1 }}
-      alt="The Book of Andlew Tote"
+      alt="Andlew Tote"
       animate={{ opacity: [1, 0] }}
       transition={{ duration: 5, repeat: Infinity }}
     />
@@ -35,7 +35,7 @@ const HeroAnimation: FC = () => (
       height="15rem"
       objectFit="cover"
       src="/img/tote-eyes.webp"
-      alt="The Book of Andlew Tote Eyes"
+      alt="Andlew Tote Eyes"
     />
     <MotionImg
       width="10rem"

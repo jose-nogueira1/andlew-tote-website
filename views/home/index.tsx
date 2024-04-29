@@ -2,12 +2,14 @@ import { FC } from 'react';
 
 import { Footer, Layout } from '@/components';
 import Hero from '@/components/hero';
-import Tokenomics from '@/components/tokenomics';
+// import Tokenomics from '@/components/tokenomics';
+import Socials from '@/components/socials';
 
 const Home: FC = () => (
   <Layout>
     <Hero />
-    <Tokenomics />
+    {/* <Tokenomics /> */}
+    <Socials />
     <Footer />
   </Layout>
 );

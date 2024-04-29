@@ -1,4 +1,4 @@
-import { Button, Code, Div, H1, Header, Img, P } from '@stylin.js/elements';
+import { A, Button, Code, Div, H1, Header, Img, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
 import HeroAnimation from './hero-animation';
@@ -22,34 +22,38 @@ const Hero: FC = () => (
       flexDirection="column"
     >
       <HeroAnimation />
-      <H1 title="The Book of Andlew Tote" aria-label="The Book of Andlew Tote">
-        <Img
-          height="10rem"
-          src="/img/logo.webp"
-          alt="The Book of Andlew Tote"
-        />
+      <H1 title="Andlew Tote" aria-label="Andlew Tote">
+        <Img height="15rem" src="/img/logo.webp" alt="Andlew Tote" />
       </H1>
       <P fontSize="1.8rem" maxWidth="40rem">
-        Book of Andlew Tote has no intrinsic value, it is a community and
-        culture token. No Promises, No Utility, Purely For {"Brokie's "}
+        Andlew Tote has no intrinsic value, it is a community and culture token.
+        No Promises, No Utility, Purely For {"Brokie's "}
         Entertainment
       </P>
       <P>
-        ✅ Contract:<Code> 7EGxmyu8DEvVVW3SxQBVeRh6ft3Qbtx2WNWxb2W7oxZ1</Code>
+        ✅ Contract:<Code> SOON</Code>
       </P>
       <Button
         all="unset"
+        p="1rem"
+        gap="1rem"
         bg="#E80"
+        display="flex"
+        alignItems="center"
         py="1rem"
         px="2rem"
         cursor="pointer"
-        fontSize="1.5rem"
+        fontSize="2rem"
         fontFamily="GochiHand"
         boxShadow="10px 10px 1px #000"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.1)' }}
       >
-        Buy Now
+        <Img width="3rem" src="/img/pump.webp" alt="Pump" />
+        <A target="_blank" rel="noreferrer, noopener" href="#">
+          SOON
+        </A>
+        <Img width="3rem" src="/img/solana.webp" alt="Solana" />
       </Button>
     </Div>
   </Header>
