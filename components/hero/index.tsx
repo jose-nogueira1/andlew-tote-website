@@ -26,12 +26,12 @@ const Hero: FC = () => (
         <Img height="15rem" src="/img/logo.webp" alt="Andlew Tote" />
       </H1>
       <P fontSize="1.8rem" maxWidth="40rem">
-        Andlew Tote has no intrinsic value, it is a community and culture token.
-        No Promises, No Utility, Purely For {"Brokie's "}
+        $TOTE has no intrinsic value, it is a community and culture token. No
+        Promises, No Utility, Purely For {"Brokie's "}
         Entertainment
       </P>
       <P>
-        ✅ Contract:<Code> SOON</Code>
+        ✅ CA:<Code>Hg5V6Mrp4dyt2UKCvbJAP2dEqSur6i8sA39agt51Fj45</Code>
       </P>
       <Button
         all="unset"
@@ -50,8 +50,12 @@ const Hero: FC = () => (
         nHover={{ transform: 'scale(1.1)' }}
       >
         <Img width="3rem" src="/img/pump.webp" alt="Pump" />
-        <A target="_blank" rel="noreferrer, noopener" href="#">
-          SOON
+        <A
+          target="_blank"
+          rel="noreferrer, noopener"
+          href="https://pump.fun/Hg5V6Mrp4dyt2UKCvbJAP2dEqSur6i8sA39agt51Fj45"
+        >
+          BUY NOW
         </A>
         <Img width="3rem" src="/img/solana.webp" alt="Solana" />
       </Button>

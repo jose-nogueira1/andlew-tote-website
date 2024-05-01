@@ -21,15 +21,15 @@ const Socials: FC = () => (
     >
       <Img width="5rem" src="/img/tg.webp" alt="Coin Market Cap" />
     </A>
-    {/* <A
+    <A
       target="_blank"
       rel="noreferer, noopener"
-      href="#"
+      href="https://birdeye.so/token/Hg5V6Mrp4dyt2UKCvbJAP2dEqSur6i8sA39agt51Fj45?chain=solana"
       transition="transform 300ms ease-in-out"
       nHover={{ transform: 'scale(1.3)' }}
     >
       <Img width="5rem" src="/img/birdeye.webp" alt="Birdeye" />
-    </A> */}
+    </A>
     {/* <A
         target="_blank"
         rel="noreferer, noopener"
